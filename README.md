@@ -1,10 +1,17 @@
 # Launching My Own Cryptocurrency on Solana Blockchain : A Decentralized Finance (DeFi) Project
 
+## Prerequisites
+
+1. An **IDE** of your choice, which is **Visual Studio Code** in my case. You can download it from this [link](https://code.visualstudio.com/download).
+    <br/>
+   
+2. **Solana** on your computer. You can get the clear steps to download it from this [link](https://docs.solana.com/cli/install-solana-cli-tools#use-solanas-install-tool).
+   
 ## Installing Solana Programming Library (SPL)
 
-1. Checking whether **solana** is installed on my system :
+1. Checking whether **solana** is installed on my system:
    <br/>
-   
+
    $ ***solana --version***
    <br/>
 
@@ -14,15 +21,15 @@
    $ ***cargo install spl-token-cli***
    <br/>
 
-   ![alt text](Screenshot119.png#gh-dark-mode-only)
+   ![alt text](Screenshot119.png)
    <br/>
-   
+
    ![alt text](Screenshot121.png)
 
-## Creating my own wallet and checking on Solana Explorer
+## Creating my wallet and checking on Solana Explorer
 
 To **transact** money on the **blockchain**, we need to use a **crypto-wallet** which allows us to store, send and receive **crypto-assets** like **cryptocurrency** or **tokens**.
-<br/>
+   <br/>
 
 1. Setting up a new **wallet**:
    <br/>
@@ -30,53 +37,61 @@ To **transact** money on the **blockchain**, we need to use a **crypto-wallet** 
    $ ***solana-keygen new***
 
    $ ***solana-keygen new --force***
-<br/>
-1. Checking my **publickey** :<br/>
-A blockchain has a unique identifier called **publickey** or **pubkey**, which is a cryptographic string of **alphanumeric** characters.
-<br/>
+   <br/>
+
+1. Checking my **publickey**:
+   <br/>
+
+   A blockchain has a unique identifier called **publickey** or **pubkey**, which is a cryptographic string of **alphanumeric** characters.
+   <br/>
 
    $ ***solana-keygen pubkey***
-<br/>
+   <br/>
 
 1. Checking my **balance**:  
-<br/>
+   <br/>
 
    $ ***solana balance --url devnet***
-<br/>
+   <br/>
 
 1. Checking my balance on explorer.solana.com:
-<br/>
+   <br/>
 
-   I chose ***devnet*** and pasted the ***publickey*** on the searchbox.
-<br/>
+   Choose ***devnet*** and pasted the ***publickey*** onto the searchbox.
+   <br/>
 
-5. **Airdropping solana currency** in my **wallet**
-<br/>
+5. **Airdropping** solana currency in my **wallet**
+   <br/>
 
    $ ***solana airdrop 2 <pubkey> --url devnet***
-<br/>
+   <br/>
 
-![alt text](assets/Screenshot125.png "image title")
-<br/>
+   ![alt text](Screenshot125.png)
+   <br/>
 
-![alt text](assets/Screenshot124.png)
-<br/>
+   ![alt text](Screenshot123.png)
+   <br/>
 
-## Creating a Token with SPL library
-<br/>
+   ![After Airdropping](Screenshot124.png)
+   <br/>
+
+## Creating a Token with SPL library   
 
 > Difference between **Creating** and **Minting** a **Token** :
+
 * ***Creating a Token*** is like creating the structure of the token.
-* ***Minting a Token*** is like actually making copies of that specific token.
 <br/>
+
+* ***Minting a Token*** is like actually making copies of that specific token.
+
 1. To **create a token** using SPL:
 <br/>
 
    $ ***spl-token create-token --url devnet***
 
 <br/>
-
-When a token goes on the soalna blockchain they are given a **unique address**. In my case, the **unique Token address** is: **3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf**. This actually implies that I have created my own **cryptocurrency** on **Solana Blockchain!**
+   
+When a token goes on the soalna blockchain, they are given a **unique address**. In my case, the **unique Token address** is: **3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf**. This actually implies that I have created my own **cryptocurrency** on **Solana Blockchain!**
 
 ## Minting a Token
 
@@ -84,43 +99,47 @@ When a token goes on the soalna blockchain they are given a **unique address**. 
 <br/>
 
 1. To **create an account** that can hold the **tokens** I have created:
- <br/>
+<br/>
 
    $ ***spl-token create-account 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf --url devnet***
 <br/>
 
-   The id, **FcXu9ypeBZxQgQMMcCk9XiP1u4PZZDPUYkcrwYBExXv8**
-, represents the **address** of an **empty token account** in my **wallet**.
+   The id, **FcXu9ypeBZxQgQMMcCk9XiP1u4PZZDPUYkcrwYBExXv8**, represents the **address** of an **empty token account** in my **wallet**.
 <br/>
-2. To check the **balance** of my **tokens**, that is the **number of tokens** I have in my newly created **account** :
+
+2. To check the **balance** of my **tokens**, that is the **number of tokens** I have in my newly created **account**:
    <br/>
 
    $ ***spl-token balance 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf  --url devnet***
-<br/>
+   <br/>
 
    The process of **making tokens** is called **Minting**.
-<br/>
+   <br/>
 
 3. To **mint** 10000 **tokens** for my **account**:
-<br/>
+   <br/>
 
    $ ***spl-token mint 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf 10000 --url devnet***
+
+   <br/>
+
+   ![](Screenshot126.png)
 
 ## Limiting the total supply and burning my token
 
 1. To view the **circulating supply** of my **tokens**:  
-<br/>
+   <br/>
 
    $ ***spl-token supply 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf  --url devnet***
-<br/>
+   <br/>
 
 2. To **disable** my **minting authoirty** and never enable it back:
-<br/>
+   <br/>
 
    $ ***spl-token authorize 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf mint --disable  --url devnet***
-<br/>
+   <br/>
 
-4. Now, if I try to **mint further tokens**, I should get an **error** like the following:
+4. Now, if I try to **mint further tokens**, I should get the **error**:
    <br/>
 
    **RPC response error -32002: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x5 [5 log messages]**
@@ -132,17 +151,35 @@ When a token goes on the soalna blockchain they are given a **unique address**. 
 
    ***$ spl-token burn FcXu9ypeBZxQgQMMcCk9XiP1u4PZZDPUYkcrwYBExXv8 1000 --url devnet***
 
+   ![](Screenshot127.png)
+
 ## Sending my tokens to my friend holding a wallet on SOLFARE
 
 **SOLFARE** allows us to transact on the Soalana Blockchain. **SOL** is the native token of the Solana Blockchain. Similar to how **ETH** is to **Ethereum blockchain**. SOL is used to interact and transact on the Solana blockchain. However, we can't send SPL tokens to SOL address like we do with ERC20 tokens because each **SPL token** on Solana blockchain will have their own address. We have to add each **SPL token** separately before we can receive them in any wallet.
 
 1. For the sake of demonstration, let me act as my friend. Let me add an account for my token in my friend's SOLFARE wallet by clicking **+ADD NEW ASSET**. The **publickey** of my friend's wallet is **65Z5XFsqo7iMEFBYJcKR1SZMdWAoiDRrN9M7RB5Hvvfe**
-<br/>
+   <br/>
 
 1. Change the network from **mainnet** to **devnet**.
-<br/>
+   <br/>
 
 3. To send my 500 tokens to my friend's wallet:
-<br/>
-   
+   <br/>
+
    $  ***spl-token transfer 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf 500 65Z5XFsqo7iMEFBYJcKR1SZMdWAoiDRrN9M7RB5Hvvfe --url devnet --allow-unfunded-recipient --fund-recipient***
+   <br/>
+
+   ![](Screenshot134.png)
+   <br/>
+
+   ![](Screenshot128.png)
+   <br/>
+
+   ![](Screenshot129.png)
+   <br/>
+
+   ![](Screenshot131.png)
+   <br/>
+   
+   ![](Screenshot132.png)
+   
