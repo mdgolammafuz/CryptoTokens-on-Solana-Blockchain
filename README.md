@@ -48,19 +48,19 @@ To **transact** money on the **blockchain**, we need to use a **crypto-wallet** 
    $ ***solana-keygen pubkey***
    <br/>
 
-1. Checking my **balance**:  
+2. Checking my **balance**:  
    <br/>
 
    $ ***solana balance --url devnet***
    <br/>
 
-1. Checking my balance on explorer.solana.com:
+3. Checking my balance on explorer.solana.com:
    <br/>
 
    Choose ***devnet*** and pasted the ***publickey*** onto the searchbox.
    <br/>
 
-5. **Airdropping** solana currency in my **wallet**
+4. **Airdropping** solana currency in my **wallet**
    <br/>
 
    $ ***solana airdrop 2 <pubkey> --url devnet***
@@ -72,7 +72,7 @@ To **transact** money on the **blockchain**, we need to use a **crypto-wallet** 
    ![alt text](Screenshot123.png)
    <br/>
 
-   ![After Airdropping](Screenshot124.png)
+   ![alt text](Screenshot124.png)
    <br/>
 
 ## Creating a Token with SPL library   
@@ -139,14 +139,14 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
    $ ***spl-token authorize 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf mint --disable  --url devnet***
    <br/>
 
-4. Now, if I try to **mint further tokens**, I should get the **error**:
+3. Now, if I try to **mint further tokens**, I should get the **error**:
    <br/>
 
    **RPC response error -32002: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x5 [5 log messages]**
 
 <br/>
 
-5. To **burn** my tokens, which means to remove tokens that I own out of circulations so that they can never be used again :
+4. To **burn** my tokens, which means to remove tokens that I own out of circulations so that they can never be used again :
    <br/>
 
    ***$ spl-token burn FcXu9ypeBZxQgQMMcCk9XiP1u4PZZDPUYkcrwYBExXv8 1000 --url devnet***
@@ -160,7 +160,7 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
 1. For the sake of demonstration, let me act as my friend. Let me add an account for my token in my friend's SOLFARE wallet by clicking **+ADD NEW ASSET**. The **publickey** of my friend's wallet is **65Z5XFsqo7iMEFBYJcKR1SZMdWAoiDRrN9M7RB5Hvvfe**
    <br/>
 
-1. Change the network from **mainnet** to **devnet**.
+2. Change the network from **mainnet** to **devnet**.
    <br/>
 
 3. To send my 500 tokens to my friend's wallet:
