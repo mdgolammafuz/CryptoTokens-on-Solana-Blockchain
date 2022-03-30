@@ -1,4 +1,4 @@
-# Launching My Own Cryptocurrency on Solana Blockchain : A Decentralized Finance (DeFi) Project
+# Launching My Cryptocurrency (!!!) on Solana Blockchain : A Decentralized Finance (DeFi) Project
 
 ## Prerequisites
 
@@ -6,6 +6,26 @@
     <br/>
    
 2. **Solana** on your computer. You can get the clear steps to download it from this [link](https://docs.solana.com/cli/install-solana-cli-tools#use-solanas-install-tool).
+   
+## Demystifying Jargons !!!
+
+> **Token** or a **Coin**???
+
+***Tokens***: Tokens are an abstraction that represents ownership. Ownership implies certain privileges such as the right to use or sell an item like a vehicle or a house. A token is any digital asset created on the blockchain. It is usually issued or minted on another blockchain, often existing alongside several other tokens that belong to different projects.
+
+***Coin***: A coin is a cryptocurrency that runs on its blockchain. It is also referred to as the **“native token”** of the blockchain and often serves as a way for projects to pay transaction fees while building out their applications on the same blockchain.
+
+* **Ether (ETH)** is a **coin** and the **‘native token’** of the **Ethereum** blockchain.
+<br/>
+
+* For example, the **Ethereum** blockchain allows developers to create their own **tokens** on top of the network using a standard called [**ERC-20**](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/). The **ERC-20** standard is used when creating a **fungible, or mutually interchangeable** token. Any **token** created on **Ethereum** might be referred to as a **‘token’** and not a **‘coin’**. **Ether (ETH)** is the **Ethereum** network’s native **cryptocurrency**.
+<br/>
+
+* Examples of **ERC-20** **tokens** on **Ethereum** include **Basic Attention Token (BAT)**, **Chainlink (LINK)**, **Tether (USDT)**, **Wrapped Bitcoin (WBTC)**, **Dai (DAI)**, **Compound (COMP)**, and many others.
+<br/>
+
+* **Tokens** can eventually become **coins** when the project develops its own blockchain and migrate their tokens to the new blockchain as a **coin**. Successful migration cases include **Binance Coin (BNB)**, **Tron (TRX)**, **Zilliqa (ZIL)** which previously existed as tokens on the **Ethereum** blockchain.
+
    
 ## Installing Solana Programming Library (SPL)
 
@@ -183,3 +203,17 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
    
    ![](Screenshot132.png)
    
+<br/>
+    **References and Mentions**
+    # Bitcoin and cryptocurrency technologies : A Comprehensive Introduction
+ ARVIND NARAYANAN, JOSEPH BONNEAU, EDWARD FELTEN, ANDREW MILLER, AND STEVEN GOLDFEDER
+ PRINCETON UNIVERSITY PRESS 
+    # Hands-On Smart Con‐
+tract Development with Solidity and Ethereum by Kevin Solorio, Randall Kanna, and
+David H. Hoover (O’Reilly). Copyright 2020 Kevin Solorio, Randall Kanna, and
+David H. Hoover, 978-1-492-04526-7.
+    
+    # [LearnWithArjun/solana-env-setup](https://github.com/LearnWithArjun/solana-env-setup)
+    
+    # [Solana Blockchain Developer Bootcamp with Rust + JavaScript
+](https://www.udemy.com/course/solana-developer/)
