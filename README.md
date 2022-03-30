@@ -206,18 +206,18 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
 <br/>
     
 ## References
-    * Bitcoin and cryptocurrency technologies : A Comprehensive Introduction
+    
+1. Bitcoin and cryptocurrency technologies : A Comprehensive Introduction
  ARVIND NARAYANAN, JOSEPH BONNEAU, EDWARD FELTEN, ANDREW MILLER, AND STEVEN GOLDFEDER
  PRINCETON UNIVERSITY PRESS 
     <br/>
     
-    * Hands-On Smart Contract Development with Solidity and Ethereum by Kevin Solorio, Randall Kanna, and
+2. Hands-On Smart Contract Development with Solidity and Ethereum by Kevin Solorio, Randall Kanna, and
 David H. Hoover (O’Reilly). Copyright 2020 Kevin Solorio, Randall Kanna, and
 David H. Hoover, 978-1-492-04526-7.
     <br/>
     
-    * [LearnWithArjun/solana-env-setup](https://github.com/LearnWithArjun/solana-env-setup)
+3. [LearnWithArjun/solana-env-setup](https://github.com/LearnWithArjun/solana-env-setup)
     <br/>
     
-    * [Solana Blockchain Developer Bootcamp with Rust + JavaScript
-](https://www.udemy.com/course/solana-developer/)
+4. [Solana Blockchain Developer Bootcamp with Rust + JavaScript](https://www.udemy.com/course/solana-developer/)
