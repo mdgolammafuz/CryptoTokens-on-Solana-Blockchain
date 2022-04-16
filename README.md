@@ -140,7 +140,7 @@ solana-test-validator
 ```
 This may take a bit to get started but once it's going you should see something like this
 
-![](Screenshot295.png)
+![](/assets/Screenshot295.png)
 
 We're now running a local validator. Now, go ahead and `CONTROL + C` to stop the validator. We're never going to actually use solana-test-validator manually ourselves again. 
 
@@ -187,10 +187,10 @@ We're now running a local validator. Now, go ahead and `CONTROL + C` to stop the
    
    ```
 
-![](Screenshot119.png)
+![](/assets/Screenshot119.png)
 <br/>
 
-![](Screenshot121.png)
+![](/assets/Screenshot121.png)
 
 <br/>
 
@@ -239,13 +239,13 @@ To **transact** money on the **blockchain**, we need to use a **crypto-wallet** 
 
    ```
 
-![](Screenshot125.png)
+![](/assets/Screenshot125.png)
 <br/>
 
-![](Screenshot123.png)
+![](/assets/Screenshot123.png)
 <br/>
 
-![](Screenshot124.png)
+![](/assets/Screenshot124.png)
 
 <br/>
 
@@ -304,7 +304,7 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
 
    ```
 
-![](Screenshot126.png)
+![](/assets/Screenshot126.png)
 
 <br/>
 
@@ -338,7 +338,7 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
    $ spl-token burn FcXu9ypeBZxQgQMMcCk9XiP1u4PZZDPUYkcrwYBExXv8 1000 --url devnet
 
    ```
-![](Screenshot127.png)
+![](/assets/Screenshot127.png)
 
 <br/>
 
@@ -361,19 +361,19 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
 
    ```
 
-![](Screenshot134.png)
+![](/assets/Screenshot134.png)
 <br/>
 
-![](Screenshot128.png)
+![](/assets/Screenshot128.png)
 <br/>
 
-![](Screenshot129.png)
+![](/assets/Screenshot129.png)
 <br/>
 
-![](Screenshot131.png)
+![](/assets/Screenshot131.png)
 <br/>
    
-![](Screenshot132.png)
+![](/assets/Screenshot132.png)
    
 <br/>
     
