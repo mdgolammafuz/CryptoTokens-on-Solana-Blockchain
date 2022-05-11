@@ -1,4 +1,4 @@
-# Launching My Cryptocurrency on Solana Blockchain : A Decentralized Finance (DeFi) Project
+# Launching My Cryptocurrency on Solana Blockchain
 
 ## ***Prerequisites***
 
