@@ -239,16 +239,6 @@ To **transact** money on the **blockchain**, we need to use a **crypto-wallet** 
 
    ```
 
-![](/assets/Screenshot125.png)
-<br/>
-
-![](/assets/Screenshot123.png)
-<br/>
-
-![](/assets/Screenshot124.png)
-
-<br/>
-
 ## ***Creating a Token with SPL library***   
 
 <br/>
