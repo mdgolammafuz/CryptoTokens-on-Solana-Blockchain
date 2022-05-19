@@ -349,20 +349,7 @@ When a token goes on the soalna blockchain, they are given a **unique address**.
    ```
    $ spl-token transfer 3FWpeHmnKE2Ztc8L9oVtnJSGmtjUAsLdLLb7qJKzpEsf 500 65Z5XFsqo7iMEFBYJcKR1SZMdWAoiDRrN9M7RB5Hvvfe --url devnet --allow-unfunded-recipient --fund-recipient
 
-   ```
-
-![](/assets/Screenshot134.png)
-<br/>
-
-![](/assets/Screenshot128.png)
-<br/>
-
-![](/assets/Screenshot129.png)
-<br/>
-
-![](/assets/Screenshot131.png)
-<br/>
-   
+   ```  
 ![](/assets/Screenshot132.png)
    
 <br/>
